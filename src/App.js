@@ -54,7 +54,7 @@ function App() {
     const {word, category} =  pickWordAndCategory();
 
     //create an array of letters
-    let wordLetters = word .split("")
+    let wordLetters = word.split("")
 
     wordLetters = wordLetters.map((l) => l.toLowerCase());
 
